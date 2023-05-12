@@ -1,0 +1,36 @@
+.tabela-resultados{
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 6.9px 8.8px 6.6px black;
+
+}
+.tabela-resultados{
+    
+    margin: 0.7rem;
+    border: 1px solid black;
+
+}
+.materia-item-resultado{
+    padding: 0.3rem;
+    border: 1px solid black;
+    width: 70px;
+    
+}
+.passou{
+    background-color: rgb(103, 192, 85);
+}
+.naMedia{
+    background-color: rgb(95, 79, 236);
+}
+.faltaPontos{
+    background-color: rgb(201, 66, 66);
+}
+
+
+
+@media only screen and (max-device-width: 880px) {
+    .tabela-resultados{
+        width: 100%;
+    }
+
+}

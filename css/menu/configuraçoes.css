@@ -1,0 +1,84 @@
+.menuAndTabelaresults{
+    display: inline-block;
+    margin: 1rem;
+}
+
+.configuracoes{
+    width: 270px;
+    display: inline-block;
+    border: 1px solid black;
+    box-shadow: 6.9px 8.8px 6.6px black;    
+    margin: 0.7rem;
+    padding: 0.43rem;
+}
+
+.itemconf{
+    padding: 0.4rem;
+    border: 1px solid black;
+    width: 93%;
+    margin: 0.4rem;
+}
+.pergunta{
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 0.3rem;
+}
+
+.selecionar{
+    width: 95%;
+    font-size: 1rem;
+    padding: 0.2rem;
+}
+.media{
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.2rem;
+
+
+
+}
+.botaoconfigurar{
+    width: 60%;
+    margin-right: 19%;
+    margin-left: 19%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+
+}
+#configurar:hover{
+    cursor: pointer;
+}
+.botaoconfigurar button{
+    width: 95%;
+    padding: 0.5rem;
+    background-color: orangered;
+    border-radius: 0.7rem;
+    box-shadow: 2.7px 2.6px 1.3px black;
+}
+.botao-importar:hover{
+    cursor: pointer;
+}
+#importar:hover{
+    cursor: pointer;
+
+}
+.botao-importar{
+    width: 60%;
+    text-align: center;
+    border-radius: 0.8rem;
+    box-shadow: 2.9px 3px 1.3px black;
+}
+#importar{
+    background-color: orangered;
+    border: none;
+    text-shadow: 0.03rem 0.02rem 0.09rem black;
+
+}
+
+
+
+@media only screen and (max-device-width: 880px){
+    .configuracoes{
+        width: 94%;
+    }
+}

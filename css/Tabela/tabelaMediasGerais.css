@@ -1,0 +1,30 @@
+.mediasGerais{
+    vertical-align: top;
+    display: inline-block;
+    box-shadow: 6.9px 8.8px 6.6px black;
+    margin-top: 2rem;
+    margin-bottom:2rem ;
+    
+
+}
+.tabelaMedias{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+
+}
+.linhaMediasGerais{
+    border: 1px solid black;
+}
+.celulaMediasGerais{
+    padding: 0.4rem;
+    border: 1px solid black;
+    height: 2rem;
+    width: 100px;
+}
+@media only screen and (max-device-width: 880px){
+    .celulaMediasGerais{
+        width: 150px;
+        margin-left: 17rem;
+    }
+}

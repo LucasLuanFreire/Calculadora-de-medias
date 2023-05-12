@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Calculadora De Médias 2.1</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/menu/menu.css">
+    <link rel="stylesheet" href="./css/Tabela/form-cadastro.css">
+    <link rel="stylesheet" href="./css/Tabela/lista-de-matérias.css">
+    <link rel="stylesheet" href="./css/Tabela/tabela.css">
+    <link rel="stylesheet" href="./css/Tabela/Materias-Tabela.css">
+    <link rel="stylesheet" href="./css/formulario-notas-materias/formulario.css">
+    <link rel="stylesheet" href="./css/menu/configuraçoes.css">
+    <link rel="stylesheet" href="./css/Tabela/tabelaMediasGerais.css">
+
+
+</head>
+
+<body>
+    <header>
+        <section class="menu">
+            <div class="container naoesxiste">
+                <input type="checkbox" id="checkbox-menu">
+                <label for="checkbox-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+            <h1 id="titulo_principal">Calculadora de Médias</h1>
+            <p id="dicas">Para bom funcionamento do site, caso seja seu primeiro acesso click no botão "primeiro Acesso"
+                e atualize
+                a página para que o site tenha acesso a lista de matérias</p>
+        </section>
+    </header>
+    <main>
+        <section class="listaMaterias naoesxiste">
+
+        </section>
+        <!-- <section class="adicionar-materia">
+            <h4>Adicione uma Matéria </h4>
+            <input type="text" placeholder="Nome da Matéria">
+            <button id="botao-adicionar-materia">Adicionar</button>
+        </section> -->
+
+        <div class="menuAndTabelaresults">
+            <section class="configuracoes">
+                <div class="modulodeDivisoes itemconf">
+                    <p class="pergunta">Em qual Formato será organizado o cálculo</p>
+                    <select class="selecionar" id="FormatoDeCalculo">
+                        <option value="Trimestre">Trimestre</option>
+                        <option value="Semestre">Semestre</option>
+                        <option value="Bimestre">Bimestre</option>
+                    </select>
+                </div>
+                <div class="modulosCalculados itemconf">
+                    <p class="pergunta" id="texto-configuracoes-trimestres-a-ser-calculados">Quantos Trimestres serão
+                        calculados</p>
+                    <select class="selecionar" id="TrimestresASeremCalculados">
+                        <option class="quantos" value="1">1</option>
+                        <option value="2" class="quantos">2</option>
+                        <option value="3" class="quantos">3</option>
+                        <option value="4" class="quantos">4</option>
+                    </select>
+                </div>
+                <div class="mediaASerAtingida itemconf">
+                    <p class="pergunta">Qual é a média miníma a ser atingida</p>
+                    <input class="media" type="tel" id="mediaminima" value="60">
+                </div>
+                <div class=" botao-importar">
+                    <button id="importar">Primeiro Acesso</button>
+                </div>
+                <div class=" botaoconfigurar">
+                    <button id="configurar">Confirmar</button>
+                </div>
+
+
+            </section>
+
+            <section class="mediasGerais" id="mediasGerais">
+
+            </section>
+
+
+            <section class="tabela-resultados">
+
+                <table class="materia-tabela-resultado">
+
+                </table>
+            </section>
+
+
+        </div>
+
+
+
+        </section>
+
+        <section class="notas-form">
+            <h2 class="titulo2">Adicione suas notas</h2>
+
+        </section>
+        <div class="fundoDoBotao">
+            <div class="botao-calcular"><button>Calcular</button></div>
+        </div>
+
+    </main>
+    <script src="./js/variaveis.js"></script>
+    <script src="./js/tabela/atualiza-tabela/funcoes/atualizaTrimestre.js"></script>
+    <script src="./js/calculos/funçoes-dos-calculos/alteraTextos.js"></script>
+    <script src="./js/calculos/funçoes-dos-calculos/atualizacoes/atualizaTabelaMedias.js"></script>
+    <script src="./js/tabela/atualiza-tabela/atualizaTabela.js"></script>
+    <script src="./js/formulario/desenhaForm.js"></script>
+    <script src="./js/calculos/funçoes-dos-calculos/calculos-media-soma.js"></script>
+    <script src="./js/lista/desenhaLista.js"></script>
+    <script src="./js/menu/menu.js"></script>
+    <script src="./js/tabela/desenhaTabela.js"></script>
+    <script src="./js/tabela/realizaDesenhoTabela.js"></script>
+    <script src="./js/formulario/realizadesenhoFormulario.js"></script>
+    <script src="./js/lista/realizaDesenhoDaLista.js"></script>
+    <script src="./js/calculos-numeros/alteraTextos.js"></script>
+    <script src="./js/calculos-numeros/variaveis-para-os-calculos.js"></script>
+    <script src="./js/calculos-numeros/calculo.js"></script>
+    <script src="./js/lista/capturaEventos.js"></script>
+    <script src="./js/calculos-numeros/calculoMediasGerais.js"></script>
+    <script src="./js/manteminformaçoes.js"></script>
+
+
+
+    <script src="./js/calculos/funçoes-dos-calculos/atualizaTabelaMediasGerais.js"></script>
+
+    <script src="./js/calculos/capturaQuesitosParaCalculo.js"></script>
+</body>
+
+</html>
